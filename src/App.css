@@ -1,0 +1,144 @@
+h1 {
+  text-align: center;
+  margin-top: 7vh;
+  padding-top: 13px;
+  color: rgb(80, 89, 123);
+}
+h3 {
+  text-align: center;
+  color: rgb(150, 161, 188);
+}
+hr {
+  background-color: rgb(242, 246, 250);
+}
+.drop {
+  margin-left: 40%;
+  margin-right: 35%;
+  border: 2px solid rgb(236, 239, 244);
+  border-radius: 5px;
+  background-color: transparent;
+}
+.drop2 {
+  width: 29vh;
+}
+.employ {
+  color: rgb(150, 168, 201);
+}
+::placeholder {
+  color: rgb(150, 168, 201);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(150, 168, 201);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(150, 168, 201);
+}
+.gender {
+  margin-left: 2vh;
+  margin-top: 3vh;
+}
+.genderbtn {
+  border: 1px solid black;
+  margin-left: 2.5vh;
+  padding: 10px;
+  padding-right: 30px;
+  font-size: 14px;
+  border: 2px solid rgb(236, 239, 244);
+  border-radius: 5px;
+}
+.genderbtn2 {
+  border: 1px solid black;
+  margin-left: 2.5vh;
+  padding: 10px;
+  padding-right: 30px;
+  font-size: 14px;
+  border: 2px solid rgb(236, 239, 244);
+  border-radius: 5px;
+  width: 5px;
+}
+input {
+  margin-left: 40%;
+  margin-top: 2vh;
+  border: 2px solid rgb(236, 239, 244);
+  border-radius: 5px;
+  outline: none;
+  font-family: sans-serif;
+  padding: 5px;
+  padding-left: 9px;
+  background-color: transparent;
+  transition: 1s;
+}
+input:focus {
+  border: 2px solid dodgerblue;
+}
+.option {
+  margin-left: 1vh;
+  font-family: sans-serif;
+  color: rgb(150, 168, 201);
+  padding: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.optionhead {
+  margin-left: 29%;
+  color: rgb(150, 168, 201);
+  border: 0;
+  border-radius: 7px;
+  padding: 2px;
+}
+.Button {
+  font-weight: bold;
+  width: 209px;
+  margin-left: 40%;
+  margin-top: 2vh;
+  font-family: sans-serif;
+  transition: 1s;
+}
+.Button:hover {
+  background-color: seagreen;
+}
+.main {
+  font-family: sans-serif;
+  border: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  padding-bottom: 5vh;
+  border-radius: 9px;
+  background-color: rgb(255, 255, 255);
+}
+.head {
+  background-color: rgb(242, 246, 250);
+  height: 100vh;
+}
+.upload {
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+}
+.uploadbtn {
+  margin-top: 2vh;
+  position: absolute;
+  margin-left: 48vh;
+  border: 2px solid rgb(236, 239, 244);
+  border-radius: 5px;
+  outline: none;
+  font-family: sans-serif;
+  padding: 5px;
+  width: 31vh;
+  background-color: transparent;
+  color: rgb(150, 168, 201);
+  transition: 1s;
+}
+.uploadbtn:focus {
+  border: 2px solid dodgerblue;
+}
+.error{
+  color: red;
+  margin-left: 50vh;
+}
