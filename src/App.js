@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import { Container, Row, Col, Dropdown } from "react-bootstrap";
-import { Link, Redirect } from "react-router-dom";
-import "./App.css";
+import { Link } from "react-router-dom";
 
 const initial = {
   name: "",

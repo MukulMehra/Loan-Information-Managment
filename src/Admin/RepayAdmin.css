@@ -1,0 +1,64 @@
+
+  .dets {
+    border: 2px solid rgb(236, 239, 244);
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    margin-left: 34vh;
+    margin-top: 3vh;
+    font-family: sans-serif;
+    padding-left: 30px;
+    width: 30vh;
+    background-color: transparent;
+    transition: 1s;
+  }
+  .dets:focus {
+    border: 2px solid dodgerblue;
+    border-left-width: 29px;
+  }
+  .AppIDs{
+    padding: 10px;
+  }
+  .pyhead{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .pybutton{
+    margin-left: 34vh;
+    margin-top: 3vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 30vh;
+  }
+  .assignicon{
+    position: absolute;
+    top: 16%;
+    left: 23%;
+  }
+  .phoneicon{
+    position: absolute;
+    top: 26.5%;
+    left: 23%;
+  }
+  .walleticon{
+    position: absolute;
+    top: 37%;
+    left: 23%;
+  }
+  .moneyicon{
+    position: absolute;
+    top: 47.5%;
+    left: 23%;
+  }
+  .bankicon{
+    position: absolute;
+    top: 58%;
+    left: 23%;
+  }
+  .arrowicon{
+    position: absolute;
+    top: 68.8%;
+    left: 35%;
+    color: white;
+  }

@@ -1,0 +1,79 @@
+.cont1 {
+  border: 1px solid rgb(187, 176, 176);
+  padding: 20vh;
+  width: 40%;
+  margin-left: 40%;
+  margin-top: 7vh;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+.entry {
+  border: 1px solid rgb(187, 176, 176);
+  margin-top: 2vh;
+  margin-left: 2vh;
+  padding: 5px;
+  padding-left: 4vh;
+  border-radius: 5px;
+  outline: none;
+  z-index: -1;
+  transition: 1s;
+}
+.entry:focus {
+    border: 1px solid dodgerblue;
+}
+.payhead {
+  font-family: sans-serif;
+  position: absolute;
+  top: 12vh;
+  left: 23vh;
+  width: 39vh;
+}
+.paybut {
+  margin-top: 3vh;
+  margin-left: 2vh;
+  font-weight: bold;
+  z-index: -1;
+  width: 31vh;
+  overflow: hidden;
+}
+.payimg {
+  margin-left: 35vh;
+  margin-top: 35vh;
+  position: absolute;
+  height: 28vh;
+  width: 28vh;
+}
+.aricon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 53.3vh;
+  left: 125vh;
+  z-index: 1;
+  transition: 2s;
+}
+.usicon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 30vh;
+  left: 105vh;
+  z-index: 1;
+}
+.appicon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 37.5vh;
+  left: 105vh;
+  z-index: 1;
+}
+.phicon {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 45vh;
+    left: 105vh;
+    z-index: 1;
+}

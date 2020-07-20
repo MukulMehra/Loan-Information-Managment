@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "react-bootstrap";
-import "./App.css";
 const initial = {
   family: "",
   cast: "",
@@ -72,7 +71,6 @@ class App extends Component {
                 name="cast"
                 type="text"
                 placeholder="Enter Your Cast"
-                maxLength="10"
                 value={this.state.cast}
                 onChange={this.handlechange}
               ></input>
