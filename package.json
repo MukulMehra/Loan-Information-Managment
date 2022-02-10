@@ -11,7 +11,7 @@
     "@types/react-transition-group": "^4.4.0",
     "bootstrap": "^4.4.1",
     "create-react-class": "^15.6.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-credit-card": "^0.20.0",
